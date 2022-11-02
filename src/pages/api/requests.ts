@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = "https:/localhost:8080/";
+const apiUrl = "https:/testapi-lac-three.vercel.app/";
 
 export async function sendGetRequest(endpoint: string, token: any) {
   var resp = await axios.get(apiUrl + endpoint, {
